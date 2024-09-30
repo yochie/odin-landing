@@ -63,7 +63,8 @@ body {
 
 .header-links a,
 .header-desc,
-.section-footer  {
+.section-footer,
+.cta-desc  {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -136,4 +137,45 @@ button {
     font-size: 22px;
     font-weight: bold;
     margin-top: 0px;
+}
+
+.section-cta {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-cta .card {
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.card-left,
+.card-right {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card-right {
+    flex-shrink: 0;
+}
+
+.cta {
+    font-size: 22px;
+    font-weight: bold;
+    color:#f9faf8;
+    margin-bottom: 0;
+}
+
+.cta-desc {
+    margin-top: 3px;
+}
+
+.section-cta button {
+    border: solid #f9faf8 3px;
 }
