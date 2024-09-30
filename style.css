@@ -13,13 +13,25 @@ body {
     font-weight: bold;
 }
 
+.header-links {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.header-links a {
+    text-decoration: none;
+}
+
 .header-title {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
 }
 
-.header-links,
+.header-links a,
 .header-desc,
 .section-footer  {
     font-size: 18px;
