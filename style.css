@@ -37,6 +37,24 @@ body {
     text-decoration: none;
 }
 
+.header-main {
+    display: flex;
+    padding: 100px 0px;
+    gap: 20px;
+}
+
+.header-main-left,
+.header-img {
+    flex: 1;
+}
+
+.header-img {
+    background-color: #6d747d;
+    text-align: center;
+    align-content: center;
+    color: white;
+}
+
 .header-title {
     font-size: 48px;
     color: #f9faf8;
