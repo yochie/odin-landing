@@ -2,6 +2,11 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.section {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
 .section-header,
 .section-footer {
     background-color: #1f2937;
