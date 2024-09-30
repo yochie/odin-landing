@@ -180,3 +180,10 @@ button {
 .section-cta button {
     border: solid #f9faf8 3px;
 }
+
+.section-footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
