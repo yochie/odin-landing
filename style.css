@@ -67,3 +67,17 @@ body {
     font-size: 18px;
     color: #e5e7eb;
 }
+
+button {
+    background-color: #3882f6;
+    padding: 10px;
+    border-radius: 5px;
+    padding: 5px 25px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.section-header button {
+    margin-top: 10px;
+    border: none;
+}
