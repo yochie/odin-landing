@@ -1,0 +1,27 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.section-header,
+.section-footer {
+    background-color: #1f2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.header-title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.header-links,
+.header-desc,
+.section-footer  {
+    font-size: 18px;
+    color: #e5e7eb;
+}
